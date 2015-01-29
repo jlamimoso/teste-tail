@@ -16,7 +16,7 @@ func main() {
 		os.Exit(1)
 	}
 	for line := range t.Lines {
-		fmt.Printf("linha -> %s\n", line.Text)
+		fmt.Printf("linha --> %s\n", line.Text)
 	}
 
 }
